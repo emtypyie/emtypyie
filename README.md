@@ -98,3 +98,5 @@ Visrodeck/   OpenDih/
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=myrachane&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> 
 </p>
+
+I use Arch, Btw

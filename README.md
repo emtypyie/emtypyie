@@ -89,7 +89,7 @@ Visrodeck/   OpenDih/
 <h3>/activity</h3>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=myrachane&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=myrachane&theme=tokyonight&hide_border=false" />
 </p>
 
 <p align="center">

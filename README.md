@@ -89,7 +89,7 @@ Visrodeck/   OpenDih/
 <h3>/activity</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=myrachane&show_icons=true&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=myrachane&show_icons=true&theme=midnight-purple&bg_color=0d1117&hide_border=true&icon_color=a78bfa&title_color=a78bfa&text_color=8b949e&ring_color=7c3aed" />
 </p>
 
 <p align="center">

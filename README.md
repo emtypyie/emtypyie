@@ -89,7 +89,7 @@ Visrodeck/   OpenDih/
 <h3>/activity</h3>
 
 <p align="center">
-  <img src="https://metrics.lecoq.io/myrachane?template=terminal&base.header=0&base.activity=1&base.community=1" />
+  <img src="https://github-readme-stats.vercel.app/api?username=myrachane&show_icons=true&theme=radical&hide_border=true" />
 </p>
 
 <p align="center">

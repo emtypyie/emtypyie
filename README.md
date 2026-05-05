@@ -65,7 +65,7 @@ What Im Doin Now?
 
 <pre>
 $ ls organizations/
-Visrodeck/   OpenDih/
+Visrodeck/   OpenDih/   DOSA/
 </pre>
 
 <table>

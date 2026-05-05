@@ -86,7 +86,7 @@ Visrodeck/   OpenDih/
 
 <td align="center" width="50%">
 <a href="https://github.com/Directory-of-Open-Space-Archives-DOSA">
-<img src="https://github.com/Directory-of-Open-Space-Archives-DOSA.png" width="70"/><br>
+<img src="https://github.com/Directory-of-Open-Space-Archives-DOSA.png" width="80"/><br>
 <b>DOSA</b>
 </a>
 </td>

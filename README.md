@@ -69,31 +69,28 @@ Visrodeck/   OpenDih/
 </pre>
 
 <table>
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/Visrodeck-Technology">
-<img src="https://github.com/Visrodeck-Technology.png" width="70"/><br>
-<b>Visrodeck</b>
-</a>
-</td>
-
-<td align="center" width="50%">
-<a href="https://github.com/OpenDih">
-<img src="https://github.com/OpenDih.png" width="70"/><br>
-<b>OpenDih</b>
-</a>
-</td>
-
-
-<td align="center" width="50%">
-<a href="https://github.com/Directory-of-Open-Space-Archives-DOSA">
-<img src="https://github.com/Directory-of-Open-Space-Archives-DOSA.png" width="70"/><br>
-<b>   DOSA   </b>
-</a>
-</td>
-
-</tr>
+  <tr>
+    <td align="center" width="33.3%">
+      <a href="https://github.com/Visrodeck-Technology">
+        <img src="https://github.com/Visrodeck-Technology.png" width="70" height="70" style="object-fit: contain;"/><br>
+        <b>Visrodeck</b>
+      </a>
+    </td>
+    <td align="center" width="33.3%">
+      <a href="https://github.com/OpenDih">
+        <img src="https://github.com/OpenDih.png" width="70" height="70" style="object-fit: contain;"/><br>
+        <b>OpenDih</b>
+      </a>
+    </td>
+    <td align="center" width="33.3%">
+      <a href="https://github.com/Directory-of-Open-Space-Archives-DOSA">
+        <img src="https://github.com/Directory-of-Open-Space-Archives-DOSA.png" width="70" height="70" style="object-fit: contain;"/><br>
+        <b>DOSA</b>
+      </a>
+    </td>
+  </tr>
 </table>
+
 
 <h3>/activity</h3>
 

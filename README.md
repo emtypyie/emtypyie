@@ -95,18 +95,18 @@ Visrodeck/   OpenDih/   DOSA/
 <h3>/activity</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=myrachane&show_icons=true&theme=midnight-purple&bg_color=0d1117&hide_border=true&icon_color=a78bfa&title_color=a78bfa&text_color=8b949e&ring_color=7c3aed" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=emtypyie&show_icons=true&theme=midnight-purple&bg_color=0d1117&hide_border=true&icon_color=a78bfa&title_color=a78bfa&text_color=8b949e&ring_color=7c3aed" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=myrachane&theme=tokyonight&hide_border=false" />
+  <img src="https://streak-stats.demolab.com?user=emtypyie&theme=tokyonight&hide_border=false" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=myrachane&theme=github-dark&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=emtypyie&theme=github-dark&hide_border=true" />
 </p>
 <p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=myrachane&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> 
+  <img src="https://komarev.com/ghpvc/?username=emtypyie&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /> 
 </p>
 
 I use Arch, Btw

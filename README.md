@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/emtypyie/emtypyie/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/myrachane/myrachane/main/assets/kodin.gif" width="900" height="350"/>
 </p>
 
@@ -29,9 +33,7 @@
   <img src="https://streak-stats.demolab.com?user=emtypyie&theme=tokyonight&hide_border=false" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/emtypyie/emtypyie/output/github-contribution-grid-snake-dark.svg" />
-</p>
+
 
 <br>
 

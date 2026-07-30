@@ -27,7 +27,7 @@
 
 <br>
 
-<h3 align="center">/activity</h3>
+
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=emtypyie&theme=tokyonight&hide_border=false" />
@@ -38,5 +38,5 @@
 <br>
 
 <p align="center">
-  <sub>I use Arch, btw.</sub>
+  <sub>I use Arch btw.</sub>
 </p>

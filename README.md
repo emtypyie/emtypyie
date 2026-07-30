@@ -23,14 +23,18 @@
 
 <br>
 
-
+<h3 align="center">/activity</h3>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=emtypyie&theme=tokyonight&hide_border=false" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emtypyie/emtypyie/output/github-contribution-grid-snake.svg" />
+</p>
+
 <br>
 
 <p align="center">
-  <sub>I use Arch btw.</sub>
+  <sub>I use Arch, btw.</sub>
 </p>

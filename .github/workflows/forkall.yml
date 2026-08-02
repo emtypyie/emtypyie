@@ -1,15 +1,5 @@
 name: Sync It Baby
 
-# Keeps EVERY forked repo in your account up to date with its upstream.
-# Place this workflow in a single repo (e.g. a "housekeeping" or dotfiles repo) —
-# it will reach out and sync all your other forks from there.
-#
-# SETUP REQUIRED:
-# 1. Create a Personal Access Token (classic: "repo" scope, or fine-grained:
-#    "Contents: Read and write" on all repos) at
-#    https://github.com/settings/tokens
-# 2. Add it as a repo secret named GH_PAT
-#    (Settings -> Secrets and variables -> Actions -> New repository secret)
 
 on:
   schedule:
@@ -42,7 +32,7 @@ jobs:
           while read -r repo branch; do
             echo "::group::Syncing $repo (branch: $branch)"
             if gh repo sync "$repo" --branch "$branch"; then
-              echo "✅ $repo synced"
+              echo "SEMXY $repo synced"
             else
               echo "::warning::Failed to sync $repo — it may have diverged and need a manual merge"
               failed=1

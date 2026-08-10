@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emtypyie/emtypyie/output/snake/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/emtypyie/emtypyie/output/pacman-contribution-graph-dark.svg" />
 </p>
 
 <p align="center">

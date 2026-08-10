@@ -1,4 +1,4 @@
-name: generate snake
+name: snaku chan
 
 on:
   schedule:
@@ -18,14 +18,16 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: emtypyie
+          # CHANGED: Added 'snake/' subfolder to the output paths
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/snake/github-contribution-grid-snake.svg
+            dist/snake/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: push svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_files: true # CRITICAL: This stops this workflow from wiping out your pacman files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

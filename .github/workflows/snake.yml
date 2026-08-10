@@ -1,5 +1,4 @@
 name: snaku chan
-
 on:
   schedule:
     - cron: "0 */6 * * *"  # runs every 6 hours
@@ -7,13 +6,26 @@ on:
   push:
     branches:
       - main
-
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      - name: checkout current output branch (to preserve other files, e.g. pacman)
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output-branch
+        continue-on-error: true # branch may not exist on first ever run
+
+      - name: seed dist/ with existing output branch contents
+        run: |
+          mkdir -p dist
+          if [ -d output-branch ]; then
+            rsync -a --exclude='.git' output-branch/ dist/
+          fi
+
       - name: generate snake svg
         uses: Platane/snk@v3
         with:
@@ -31,3 +43,8 @@ jobs:
           keep_files: true # CRITICAL: This stops this workflow from wiping out your pacman files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: print output svg links
+        run: |
+          echo "Light mode: https://raw.githubusercontent.com/${{ github.repository }}/output/snake/github-contribution-grid-snake.svg"
+          echo "Dark mode:  https://raw.githubusercontent.com/${{ github.repository }}/output/snake/github-contribution-grid-snake-dark.svg"

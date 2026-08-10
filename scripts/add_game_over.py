@@ -42,14 +42,23 @@ def build_overlay(width, height, duration_ms):
     cy = height / 2
     font_size = max(14, min(28, height * 0.22))
 
-    return f'''<g visibility="hidden">
+    # NOTE: visibility is animated directly on each element (rect and text)
+    # rather than on a wrapping <g>. Some SVG renderers (including how
+    # GitHub displays raw SVGs) don't reliably propagate an animated
+    # attribute value through inheritance to children -- they only look at
+    # the static attribute. The upstream library itself avoids wrapping
+    # groups for this exact reason (every ghost <use> animates its own
+    # visibility individually), so we follow the same pattern here.
+    return f'''<rect x="0" y="0" width="{width}" height="{height}" fill="#000000" opacity="0.55" visibility="hidden">
 \t<animate attributeName="visibility" dur="{duration_ms}ms" repeatCount="indefinite"
 \t\tkeyTimes="{kt}" values="{vals}" />
-\t<rect x="0" y="0" width="{width}" height="{height}" fill="#000000" opacity="0.55" />
-\t<text x="{cx}" y="{cy}" text-anchor="middle" dominant-baseline="middle"
-\t\tfont-family="'Press Start 2P', 'Courier New', monospace" font-weight="bold"
-\t\tfont-size="{font_size}" fill="#ffff00" stroke="#000000" stroke-width="0.5">GAME OVER</text>
-</g>'''
+</rect>
+<text x="{cx}" y="{cy}" text-anchor="middle" dominant-baseline="middle"
+\tfont-family="'Press Start 2P', 'Courier New', monospace" font-weight="bold"
+\tfont-size="{font_size}" fill="#ffff00" stroke="#000000" stroke-width="0.5" visibility="hidden">GAME OVER
+\t<animate attributeName="visibility" dur="{duration_ms}ms" repeatCount="indefinite"
+\t\tkeyTimes="{kt}" values="{vals}" />
+</text>'''
 
 
 def main():

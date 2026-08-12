@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emtypyie/emtypyie/main/assets/kodin.gif" width="900" height="350"/>
+  <img src="https://tenor.com/i8fE4VXHq8r.gif" width="900" height="350"/>
 </p>
 
 <p align="center">

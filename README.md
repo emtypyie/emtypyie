@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="hhttps://tenor.com/en-IN/view/yuri-kiss-gif-anime-yuri-kiss-anime-kiss-yuri-gif-wlw-gif-gif-7527820693292051969" width="900" height="350"/>
+  <img src="https://tenor.com/en-IN/view/yuri-kiss-gif-anime-yuri-kiss-anime-kiss-yuri-gif-wlw-gif-gif-7527820693292051969" width="900" height="350"/>
 </p>
 
   <code>myrachane@dev:~$ initializing session...</code>

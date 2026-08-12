@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://tenor.com/i8fE4VXHq8r.gif" width="900" height="350"/>
 </p>
-
+<div class="tenor-gif-embed" data-postid="7527820693292051969" data-share-method="host" data-aspect-ratio="1.76596" data-width="100%"><a href="https://tenor.com/view/yuri-kiss-gif-anime-yuri-kiss-anime-kiss-yuri-gif-wlw-gif-gif-7527820693292051969">Yuri Kiss Gif Anime Yuri Kiss GIF</a>from <a href="https://tenor.com/search/yuri+kiss+gif-gifs">Yuri Kiss Gif GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 <p align="center">
   <code>myrachane@dev:~$ initializing session...</code>
 </p>

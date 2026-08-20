@@ -28,12 +28,12 @@ jobs:
           failed=0
           while read -r repo branch; do
             echo "----- Syncing $repo (branch: $branch) -----"
-            output=$(gh repo sync "$repo" --branch "$branch" 2>&1)
-            rc=$?
-            echo "$output"
-            if [ "$rc" -eq 0 ]; then
+            if output=$(gh repo sync "$repo" --branch "$branch" 2>&1); then
+              echo "$output"
               echo "Result: synced $repo"
             else
+              rc=$?
+              echo "$output"
               echo "::warning::Failed to sync $repo (exit $rc): $output"
               failed=1
             fi

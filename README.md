@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="" width="900" height="350"/>
+  <img src="https://klipy.com/gifs/hololive-dd" width="900" height="350"/>
 </p>
 <p align="center">
   <code>myrachane@dev:~$ initializing session...</code>

@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://klipy.com/gifs/hololive-dd" width="900" height="350"/>
+  <img src="https://raw.githubusercontent.com/emtypyie/emtypyie/main/assets/8mZR9mq3SfK0dau6Cp.gif
+" width="900" height="350"/>
 </p>
 <p align="center">
   <code>myrachane@dev:~$ initializing session...</code>
